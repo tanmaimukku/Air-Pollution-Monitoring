@@ -24,6 +24,7 @@ This project, titled "Improving Spatio-Temporal Understanding of Particulate Mat
    - **Data Handling**: The back-end, built with JavaScript, utilizes AJAX for asynchronous data fetching, allowing seamless interaction without reloading the webpage.
    - **Map Rendering**: Leaflet, a JavaScript library, takes the retrieved data and dynamically generates interactive maps on the front-end.
    - **Front-End Display**: The processed data is then presented through a well-structured HTML interface, providing users with real-time visual updates on air quality.
+   - ![Architecture Image](images/process_flow.png)
 
 4. **Web-Based Dashboard**:
    - Real-time visualization of air quality data.
