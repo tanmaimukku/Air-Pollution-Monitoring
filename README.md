@@ -13,7 +13,7 @@ This project, titled "Improving Spatio-Temporal Understanding of Particulate Mat
    - **NodeMCU Microcontroller**: Manages sensor data sampling and transmission.
    - **PM Sensors**: Measures particulate matter sizes PM2.5 and PM10.
    - **Temperature and Humidity Sensors**: Assists in adjusting PM readings based on environmental conditions.
-   - ![Sensor Node Image](URL_to_image_of_sensor_node)
+   - ![Sensor Node Image](images/sensor_node.png)
 
 2. **IoT Network Deployment**:
    - Deployed across a specific urban area to achieve high-density coverage.
@@ -22,7 +22,7 @@ This project, titled "Improving Spatio-Temporal Understanding of Particulate Mat
 3. **Web-Based Dashboard**:
    - Real-time visualization of air quality data.
    - Accessible through any web browser.
-   - ![Dashboard Screenshot](URL_to_dashboard_screenshot)
+   - ![Dashboard Screenshot](images/dashboard.png)
 
 ## Installation and Setup
 Describe how to install and set up the project locally. Include any prerequisites, libraries needed, and other necessary information.
