@@ -17,18 +17,15 @@ This project, titled "Improving Spatio-Temporal Understanding of Particulate Mat
 
 2. **IoT Network Deployment**:
    - Deployed across a specific urban area to achieve high-density coverage.
-   - ![Deployment Image](URL_to_deployment_image)
+   - ![Deployment Image](images/coverage_map.png)
 
-3. **Web-Based Dashboard**:
+3. **Process Flow**:
+   - **Data Retrieval**: Both OpenStreetMap for map data and ThingSpeak for PM values use HTTP requests to retrieve necessary data.
+   - **Data Handling**: The back-end, built with JavaScript, utilizes AJAX for asynchronous data fetching, allowing seamless interaction without reloading the webpage.
+   - **Map Rendering**: Leaflet, a JavaScript library, takes the retrieved data and dynamically generates interactive maps on the front-end.
+   - **Front-End Display**: The processed data is then presented through a well-structured HTML interface, providing users with real-time visual updates on air quality.
+
+4. **Web-Based Dashboard**:
    - Real-time visualization of air quality data.
    - Accessible through any web browser.
    - ![Dashboard Screenshot](images/dashboard.png)
-
-## Installation and Setup
-Describe how to install and set up the project locally. Include any prerequisites, libraries needed, and other necessary information.
-
-```bash
-git clone https://github.com/yourgithubusername/air-pollution-monitoring.git
-cd air-pollution-monitoring
-# Add further steps if necessary
-# Air-Pollution-Monitoring
